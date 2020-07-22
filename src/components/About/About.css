@@ -1,7 +1,12 @@
 .about-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 500px;
-    background-color: slategray;
+    background-color: #ddd;
+    scroll-margin-top: 50px;
+}
+
+.profile-photo {
+    filter: grayscale(100%);
+}
+
+.profile-photo:hover {
+    filter: grayscale(0%);
 }

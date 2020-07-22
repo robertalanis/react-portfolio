@@ -3,6 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import "./Introduction.css";
 
 const Introduction = (props) => {
+	
 	return (
 		<Container fluid className="intro-wrapper">
 			<div>

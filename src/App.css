@@ -5,3 +5,7 @@
 .fugaz-one {
     font-family: 'Fugaz One', cursive;
 }
+
+.fugaz-one:hover {
+    color: seagreen;
+}
