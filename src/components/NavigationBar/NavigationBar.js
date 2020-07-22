@@ -22,7 +22,9 @@ const NavigationBar = (props) => {
 	return (
 		<div>
 			<Navbar fixed="top" color="light" light expand="sm">
-				<NavbarBrand href="/">Robert X. Alanis</NavbarBrand>
+				<NavbarBrand href="http://robertalanis.github.io/react-portfolio">
+					Robert X. Alanis
+				</NavbarBrand>
 				<NavbarToggler onClick={toggle} />
 				<Collapse isOpen={isOpen} navbar>
 					<Nav className="mr-auto" navbar>
@@ -35,27 +37,27 @@ const NavigationBar = (props) => {
 						<NavItem>
 							<NavLink href="#">Contact</NavLink>
 						</NavItem>
-
 						<UncontrolledDropdown nav inNavbar>
 							<DropdownToggle nav caret>
 								More
 							</DropdownToggle>
 							<DropdownMenu right>
 								<DropdownItem>
-									<NavLink href="#" target="blank">
-										LinkedIn
+									<NavLink href="https://github.com/robertalanis" target="blank">
+										GitHub
 									</NavLink>
 								</DropdownItem>
+
 								<DropdownItem divider />
 								<DropdownItem>
-								<NavLink href="#" target="blank">
+									<NavLink href="#" target="blank">
 										Resume
 									</NavLink>
 								</DropdownItem>
 								<DropdownItem divider />
 								<DropdownItem>
-									<NavLink href="https://github.com/robertalanis" target="blank">
-										GitHub
+									<NavLink href="#" target="blank">
+										LinkedIn
 									</NavLink>
 								</DropdownItem>
 							</DropdownMenu>
