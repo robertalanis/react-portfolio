@@ -45,7 +45,10 @@ const NavigationBar = (props) => {
 									<NavLink href="#" target="blank">
 										LinkedIn
 									</NavLink>
-									<NavLink href="#" target="blank">
+								</DropdownItem>
+								<DropdownItem divider />
+								<DropdownItem>
+								<NavLink href="#" target="blank">
 										Resume
 									</NavLink>
 								</DropdownItem>

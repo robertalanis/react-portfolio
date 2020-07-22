@@ -6,7 +6,7 @@ const Introduction = (props) => {
 	return (
 		<Container fluid className="intro-wrapper">
 			<div>
-				<h1 className="display-4">I'm a full-stack developer.</h1>
+				<h1 className="display-4 fugaz-one">I'm a full-stack developer.</h1>
 			</div>
 		</Container>
 	);
