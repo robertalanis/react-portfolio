@@ -1,3 +1,7 @@
+#projects{
+    scroll-margin-top: 50px;
+}
+
 .projects-wrapper {
     background-color: #ccc;
 }

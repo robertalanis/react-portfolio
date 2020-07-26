@@ -6,8 +6,8 @@ const Projects = (props) => {
 	return (
 		<Container fluid id="projects" className="projects-wrapper">
 			<Row>
-				<Col className="text-center pt-5">
-					<h1 className="display-5 fugaz-one">Projects</h1>
+				<Col className="text-center p-5">
+					<h1 className="display-2 fugaz-one">Projects</h1>
 				</Col>
 			</Row>
 			<Row>

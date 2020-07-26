@@ -1,7 +1,10 @@
 a.nav-link:hover  {
-    text-decoration: underline darkgreen ;
+    text-decoration: underline seagreen ;
+    font-weight: bold;
+    color: seagreen !important;
 }
 
 a.navbar-brand:hover  {
-    color: darkgreen !important;
+    color: seagreen !important;
+    text-decoration: underline seagreen ;
 }

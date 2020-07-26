@@ -1,7 +1,25 @@
+#contact{
+    scroll-margin-top: 50px;
+}
+
 .contact-wrapper {
+    background-color: #aaa;
+}
+
+.contact-links {
     background-color: #bbb;
 }
 
-.contact-icons-wrapper {
-    background-color: #aaa;
+.contact-links a {
+    color: black;
+}
+
+.contact-links a:hover {
+    color: seagreen;
+}
+
+.contact-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
