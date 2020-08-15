@@ -1,0 +1,70 @@
+{
+	"Projects": [
+		{
+            "title": "Title One",
+            "media": "/profile.jpg",
+			"summary": "This is some sample text for the first project. This needs to eventually be replaced",
+			"links": [
+				{
+					"demo": "https://www.google.com/",
+					"github": "https://www.wikipedia.org/."
+				}
+			]
+        },
+        {
+            "title": "Title Two",
+            "media": "/profile.jpg",
+			"summary": "This is some sample text for the second project. This needs to eventually be replaced",
+			"links": [
+				{
+					"demo": "https://www.google.com/",
+					"github": "https://www.wikipedia.org/."
+				}
+			]
+        },
+        {
+            "title": "Title Three",
+            "media": "/profile.jpg",
+			"summary": "This is some sample text for the third project. This needs to eventually be replaced",
+			"links": [
+				{
+					"demo": "https://www.google.com/",
+					"github": "https://www.wikipedia.org/."
+				}
+			]
+        },
+        {
+            "title": "Title Four",
+            "media": "/profile.jpg",
+			"summary": "This is some sample text for the fourth project. This needs to eventually be replaced. This one is a little bit longer than the rest",
+			"links": [
+				{
+					"demo": "https://www.google.com/",
+					"github": "https://www.wikipedia.org/."
+				}
+			]
+        },
+        {
+            "title": "Title Five",
+            "media": "/profile.jpg",
+			"summary": "This is some sample text for the fith project. This needs to eventually be replaced",
+			"links": [
+				{
+					"demo": "https://www.google.com/",
+					"github": "https://www.wikipedia.org/."
+				}
+			]
+        },
+        {
+            "title": "Title Six",
+            "media": "/profile.jpg",
+			"summary": "This is some sample text for the sixth project. This needs to eventually be replaced",
+			"links": [
+				{
+					"demo": "https://www.google.com/",
+					"github": "https://www.wikipedia.org/."
+				}
+			]
+        }
+	]
+}

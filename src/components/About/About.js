@@ -22,7 +22,7 @@ const About = (props) => {
 					<img
 						src={process.env.PUBLIC_URL + "/profile.jpg"}
 						class="img-fluid profile-photo"
-						alt="Photo"
+						alt="Robert"
 					></img>
 				</Col>
 				<Col className="p-5" id="about">
@@ -32,13 +32,9 @@ const About = (props) => {
 						user experience on the web.
 					</p>
 					<p>
-						Passionate about diversity and inclusion and approaching programming challenges from
-						different angles to collaborate with others to create meaningful web applications.
-					</p>
-					<p>
 						Recently completed a certificate in Full-Stack Development from the University of Texas
-						at Austin with newly developed skills in HTML, CSS, JavaScript, Node.js, React, and responsive web
-						design. 
+						at Austin with newly developed skills in HTML, CSS, JavaScript, Node.js, React, and
+						responsive web design.
 					</p>
 				</Col>
 			</Row>

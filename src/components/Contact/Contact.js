@@ -13,33 +13,33 @@ const Contact = (props) => {
 		<Container fluid id="contact" className="contact-wrapper">
 			<Row>
 				<Col md="6" className="contact-links text-center p-5">
-					<h1 className="display-3 fugaz-one">Contact</h1>
+					<h1 className="display-4 fugaz-one pb-4">Contact</h1>
 					<a href="https://github.com/robertalanis" target="blank">
-						<h3>
+						<h4>
 							<AiOutlineGithub style={{ marginBottom: "10px" }} /> GitHub{" "}
 							<sup>
 								<FiExternalLink />
 							</sup>
-						</h3>
+						</h4>
 					</a>
 					<a href="https://www.linkedin.com/in/robert-alanis/" target="blank">
-						<h3>
+						<h4>
 							<AiOutlineLinkedin style={{ marginBottom: "5px" }} /> LinkedIn{" "}
 							<sup>
 								<FiExternalLink />
 							</sup>
-						</h3>
+						</h4>
 					</a>
-					<a>
-						<h3>
+					<a href="mailto:robertxavier@me.com">
+						<h4>
 							<AiOutlineMail /> robertxavier@me.com
-						</h3>
+						</h4>
 					</a>
 				</Col>
 				<Col className="contact-div p-5">
-					<h1 className="display-5 fugaz-one">
+					<h2 className="fugaz-one">
 						<TiLocationOutline style={{ marginBottom: "5px" }} /> Located in Austin
-					</h1>
+					</h2>
 				</Col>
 			</Row>
 		</Container>
