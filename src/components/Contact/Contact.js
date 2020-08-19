@@ -15,31 +15,31 @@ const Contact = (props) => {
 				<Col md="6" className="contact-links text-center p-5">
 					<h1 className="display-4 fugaz-one pb-4">Contact</h1>
 					<a href="https://github.com/robertalanis" target="blank">
-						<h4>
+						<h5>
 							<AiOutlineGithub style={{ marginBottom: "10px" }} /> GitHub{" "}
 							<sup>
 								<FiExternalLink />
 							</sup>
-						</h4>
+						</h5>
 					</a>
 					<a href="https://www.linkedin.com/in/robert-alanis/" target="blank">
-						<h4>
+						<h5>
 							<AiOutlineLinkedin style={{ marginBottom: "5px" }} /> LinkedIn{" "}
 							<sup>
 								<FiExternalLink />
 							</sup>
-						</h4>
+						</h5>
 					</a>
 					<a href="mailto:robertxavier@me.com">
-						<h4>
+						<h5>
 							<AiOutlineMail /> robertxavier@me.com
-						</h4>
+						</h5>
 					</a>
 				</Col>
 				<Col className="contact-div p-5">
-					<h2 className="fugaz-one">
-						<TiLocationOutline style={{ marginBottom: "5px" }} /> Located in Austin
-					</h2>
+					<h3 className="fugaz-one">
+						<TiLocationOutline style={{ marginBottom: "5px" }} /> Located in Austin, TX
+					</h3>
 				</Col>
 			</Row>
 		</Container>

@@ -25,8 +25,8 @@ const About = (props) => {
 						alt="Robert"
 					></img>
 				</Col>
-				<Col className="p-5" id="about">
-					<h1 className="display-4 fugaz-one">About</h1>
+				<Col className="p-3" id="about">
+					<h1 className="display-4 fugaz-one text-center">About</h1>
 					<p>
 						Full Stack Web Developer leveraging a background in education to build a more intuitive
 						user experience on the web.
@@ -36,6 +36,14 @@ const About = (props) => {
 						at Austin with newly developed skills in HTML, CSS, JavaScript, Node.js, React, and
 						responsive web design.
 					</p>
+					<div className="text-center pt-3">
+						<a class="btn btn-lg btn-success mx-2" href="https://github.com/robertalanis" target="blank">
+							GitHub
+						</a>
+						<a class="btn btn-lg btn-outline-dark mx-2" href="https://www.linkedin.com/in/robert-alanis/" target="blank">
+							LinkedIn
+						</a>
+					</div>
 				</Col>
 			</Row>
 		</Container>
